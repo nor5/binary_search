@@ -32,7 +32,7 @@ while len(sorted_list) < length:
 sorted_list = sorted(list(sorted_list))
 start = time.time()
 for target in sorted_list:
-     binary_search(sorted_list ,23)
+     binary_search(sorted_list ,target)
 
 end = time.time()
 print(f"binary search time: {end-start} seconds")
